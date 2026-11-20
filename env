@@ -1,0 +1,28 @@
+# Публичный URL сайта (без слэша в конце)
+NEXT_PUBLIC_SITE_URL=https://lavino.example.com
+
+# Supabase
+NEXT_PUBLIC_SUPABASE_URL=https://qpsqwfnwcjhykbpcbmge.supabase.co/rest/v1/
+NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_6x6x__yJYvQyiT-t6utlQw_hY-h5Xjh
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+
+# ЮKassa
+YOOKASSA_SHOP_ID=123456
+YOOKASSA_SECRET_KEY=live_or_test_secret_key
+# Код ставки НДС для чека 54-ФЗ: 1 — без НДС, 2 — 0%, 3 — 10%, 4 — 20%
+YOOKASSA_VAT_CODE=1
+# Система налогообложения (необязательно): 1 — ОСН, 2 — УСН доход, 3 — УСН доход-расход, 5 — ЕСХН, 6 — ПСН
+YOOKASSA_TAX_SYSTEM_CODE=
+
+# Resend
+RESEND_API_KEY=re_xxxxxxxxxxxx
+RESEND_FROM="LA VINO <orders@lavino.example.com>"
+# Можно несколько адресов через запятую
+ORDER_NOTIFY_EMAIL=manager@lavino.example.com
+
+# Telegram
+TELEGRAM_BOT_TOKEN=123456789:AAAbbbCCC
+TELEGRAM_CHAT_ID=-1001234567890
+
+# Секрет для внешнего вызова /api/notify
+NOTIFY_SECRET=change-me-long-random-string
